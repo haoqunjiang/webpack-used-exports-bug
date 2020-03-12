@@ -1,0 +1,19 @@
+{
+  "name": "webpack-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode development",
+    "start": "npm run build && serve .",
+    "open": "open http://localhost:5000/example/"
+  },
+  "devDependencies": {
+    "css-loader": "^3.4.2",
+    "serve": "^11.3.0",
+    "start-server-and-test": "^1.10.9",
+    "style-loader": "^1.1.3",
+    "webpack": "^5.0.0-beta.14",
+    "webpack-cli": "^3.3.11"
+  }
+}
